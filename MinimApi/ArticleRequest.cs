@@ -1,0 +1,5 @@
+﻿namespace MinimApi
+{
+    public record ArticleRequest(string Title, string Content, DateTime? PublishedAt);
+}
+
